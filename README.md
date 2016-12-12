@@ -43,6 +43,7 @@ React (https://facebook.github.io/react/)
 7. Striker
 8. Perlu latihan lagi :)
 
+
 #Rule
 
 0. True -> Perlu latihan lagi
@@ -51,12 +52,10 @@ Kecuali:
 
 1.
 	Passing(Good)
-	LongShoots(at least Medium)
 	Tackling(at least Medium)
 	Agility(at least Medium)
 	Balance(Good)
 	Strength(Good)
-	Decision(Good)
 	Vision(Good)
 	--------------------> Center Midfielder
 
@@ -68,7 +67,6 @@ Not center midfielder:
 	Crossing(Good)
 	Dribbling(Good)
 	Stamina(Good)
-	LongShoot(at least Medium)
 	Agility(Good)  
 	--------------------> Winger
 
@@ -103,14 +101,12 @@ Not Wing Back:
 	Heading(Good)
 	Agility(at least Medium)
 	Strength(at least Medium)
-	Decision(Good)
 	--------------------> Sriker
 
 Not Striker:
 6.
 	Dribbling(at least Medium)
 	Finishing(at least Medium)
-	LongShots(at least Medium)
 	Agility(Good)
 	Passing(Good)
 	Balance(at least Medium)
