@@ -5,13 +5,10 @@ Tugas Mata Kuliah Representasi Pengetahuan dan Penalaran
 React (https://facebook.github.io/react/)
 
 # Run
-
 1. npm install
 2. npm start
 
-
-
-#Paramater
+# Paramater Expert System
 1. Dribbling 
 2. Finishing
 3. Crossing 
@@ -119,13 +116,3 @@ Not Attacking Midfielder:
 	2 Vision(Good)
 	2 Anticipation(Good)
 	--------------------> Goalkeeper
-
-
-
-
-
-
-
-  
-
-
