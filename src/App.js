@@ -3,6 +3,8 @@ import SelectField from 'material-ui/SelectField';
 import MenuItem from 'material-ui/MenuItem';
 import RaisedButton from 'material-ui/RaisedButton';
 import CircularProgress from 'material-ui/CircularProgress';
+import {Card, CardActions, CardHeader, CardText} from 'material-ui/Card';
+import FlatButton from 'material-ui/FlatButton';
 
 import logo from './logo.svg';
 import './App.css';
@@ -28,6 +30,7 @@ class App extends Component {
     this.handleChangeAnticipation = this.handleChangeAnticipation.bind(this);
     this.handleChangeGoalkeeping = this.handleChangeGoalkeeping.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
+    this.onReset = this.onReset.bind(this);
 
     this.state = {
       dribbling: 0,
@@ -46,7 +49,8 @@ class App extends Component {
       anticipation: 0,
       goalkeeping: 0,
 
-      screen: 'form'
+      screen: 'form',
+      result: 'Striker'
     };
   }
 
@@ -63,6 +67,8 @@ class App extends Component {
         { 
           (screenState == 'form') ?
             this.renderForm() :
+            (screenState == 'result') ?
+            this.renderResult():
             this.renderLoading()
         }
       </div>
@@ -289,7 +295,23 @@ class App extends Component {
   }
 
   renderResult() {
+    const resultText = this.state.result;
 
+    return(
+      <div className='Result'>
+        <Card style={{height: '160px'}}>
+          <CardHeader
+            title={resultText}
+            style={{'text-align': 'center'}}
+            titleStyle={{ 'font-size': '64px'}}
+          />
+
+          <CardActions style={{'text-align': 'right'}}>
+            <FlatButton label="Reset" onClick={this.onReset} />
+          </CardActions>
+        </Card>
+      </div>
+    )
   }
 
   handleChangeDribbling(event, index, value) {
@@ -356,7 +378,30 @@ class App extends Component {
     this.setState({screen: 'loading'})
     
     //Dummy process
-    setTimeout(() => this.setState({screen: 'form'}), 2000)
+    setTimeout(() => this.setState({screen: 'result'}), 2000)
+  }
+
+  onReset() {
+    this.setState({
+      dribbling: 0,
+      finishing: 0,
+      crossing: 0, 
+      heading: 0,
+      marking: 0,
+      passing: 0,
+      tackling: 0,
+      agility: 0,
+      balance: 0,
+      speed: 0,
+      stamina: 0,
+      strength: 0,
+      vision: 0,
+      anticipation: 0,
+      goalkeeping: 0,
+
+      screen: 'form',
+      result: 'Striker'
+    })
   }
 }
 

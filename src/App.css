@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 5s linear;
   height: 80px;
 }
 
@@ -26,6 +26,14 @@
 
 .Loading {
   margin-top: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Result {
+  text-align: left;
+  margin-top: 250px;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
