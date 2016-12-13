@@ -25,7 +25,7 @@ class App extends Component {
     this.handleChangeBalance = this.handleChangeBalance.bind(this);
     this.handleChangeSpeed = this.handleChangeSpeed.bind(this);
     this.handleChangeStamina = this.handleChangeStamina.bind(this);
-    this.handleChangeStrength = this.handleChangeStrength.bind(this);
+    this.handleChangeStrength = this.handleChangeStrength.bind(this);  
     this.handleChangeVision = this.handleChangeVision.bind(this);
     this.handleChangeAnticipation = this.handleChangeAnticipation.bind(this);
     this.handleChangeGoalkeeping = this.handleChangeGoalkeeping.bind(this);
@@ -82,7 +82,7 @@ class App extends Component {
         <SelectField
           floatingLabelText='Dribbling: Kemampuan pemain untuk menguasai bola'
           value={this.state.dribbling}
-          style={{fontSize: 24, padding: 6}}
+          style={{fontSize: 20, padding: 6}}
           floatingLabelStyle={{color: '#616161'}}
           fullWidth={true}
           onChange={this.handleChangeDribbling}>
@@ -95,7 +95,7 @@ class App extends Component {
         <SelectField
           floatingLabelText='Finishing: Kemampuan pemain untuk memaksimalkan peluang untuk mencetak goal'
           value={this.state.finishing}
-          style={{fontSize: 24, padding: 6}}
+          style={{fontSize: 20, padding: 6}}
           floatingLabelStyle={{color: '#616161'}}
           fullWidth={true}
           onChange={this.handleChangeFinishing}>
@@ -108,7 +108,7 @@ class App extends Component {
         <SelectField
           floatingLabelText='Crossing: Kemampuan pemain untuk memberikan umpan lambung dari sisi kotak penalti'
           value={this.state.crossing}
-          style={{fontSize: 24, padding: 6}}
+          style={{fontSize: 20, padding: 6}}
           floatingLabelStyle={{color: '#616161'}}
           fullWidth={true}
           onChange={this.handleChangeCrossing}>
@@ -121,7 +121,7 @@ class App extends Component {
         <SelectField
           floatingLabelText='Heading: Kemampuan dan keakuratan sundulan pemain'
           value={this.state.heading}
-          style={{fontSize: 24, padding: 6}}
+          style={{fontSize: 20, padding: 6}}
           floatingLabelStyle={{color: '#616161'}}
           fullWidth={true}
           onChange={this.handleChangeHeading}>
@@ -134,7 +134,7 @@ class App extends Component {
         <SelectField
           floatingLabelText='Marking: Kemampuan pemain untuk mengawal pemain lawan dan mencegah mendapat bola'
           value={this.state.marking}
-          style={{fontSize: 24, padding: 6}}
+          style={{fontSize: 20, padding: 6}}
           floatingLabelStyle={{color: '#616161'}}
           fullWidth={true}
           onChange={this.handleChangeMarking}>
@@ -147,7 +147,7 @@ class App extends Component {
         <SelectField
           floatingLabelText='Passing: Kemampuan pemain untuk memberikan umpan kepada rekan'
           value={this.state.passing}
-          style={{fontSize: 24, padding: 6}}
+          style={{fontSize: 20, padding: 6}}
           floatingLabelStyle={{color: '#616161'}}
           fullWidth={true}
           onChange={this.handleChangePassing}>
@@ -160,7 +160,7 @@ class App extends Component {
         <SelectField
           floatingLabelText='Tackling: Kemampuan pemain untuk melakukan tackling yang aman atau bersih'
           value={this.state.tackling}
-          style={{fontSize: 24, padding: 6}}
+          style={{fontSize: 20, padding: 6}}
           floatingLabelStyle={{color: '#616161'}}
           fullWidth={true}
           onChange={this.handleChangeTackling}>
@@ -173,7 +173,7 @@ class App extends Component {
         <SelectField
           floatingLabelText='Agility: Kelincahan pemain secara umum'
           value={this.state.agility}
-          style={{fontSize: 24, padding: 6}}
+          style={{fontSize: 20, padding: 6}}
           floatingLabelStyle={{color: '#616161'}}
           fullWidth={true}
           onChange={this.handleChangeAgility}>
@@ -186,7 +186,7 @@ class App extends Component {
         <SelectField
           floatingLabelText='Balance: Keseimbangan tubuh pemain'
           value={this.state.balance}
-          style={{fontSize: 24, padding: 6}}
+          style={{fontSize: 20, padding: 6}}
           floatingLabelStyle={{color: '#616161'}}
           fullWidth={true}
           onChange={this.handleChangeBalance}>
@@ -199,7 +199,7 @@ class App extends Component {
         <SelectField
           floatingLabelText='Speed: Kemampuan pemain untuk berlari baik saat membawa bola atau tidak'
           value={this.state.speed}
-          style={{fontSize: 24, padding: 6}}
+          style={{fontSize: 20, padding: 6}}
           floatingLabelStyle={{color: '#616161'}}
           fullWidth={true}
           onChange={this.handleChangeSpeed}>
@@ -212,7 +212,7 @@ class App extends Component {
         <SelectField
           floatingLabelText='Stamina: Daya tahan pemain selama pertandingan'
           value={this.state.stamina}
-          style={{fontSize: 24, padding: 6}}
+          style={{fontSize: 20, padding: 6}}
           floatingLabelStyle={{color: '#616161'}}
           fullWidth={true}
           onChange={this.handleChangeStamina}>
@@ -225,7 +225,7 @@ class App extends Component {
         <SelectField
           floatingLabelText='Strength: Kekuatan pemain'
           value={this.state.strength}
-          style={{fontSize: 24, padding: 6}}
+          style={{fontSize: 20, padding: 6}}
           floatingLabelStyle={{color: '#616161'}}
           fullWidth={true}
           onChange={this.handleChangeStrength}>
@@ -238,7 +238,7 @@ class App extends Component {
         <SelectField
           floatingLabelText='Vision: Kemampuan pemain untuk mengamati daerah sekitarnya'
           value={this.state.vision}
-          style={{fontSize: 24, padding: 6}}
+          style={{fontSize: 20, padding: 6}}
           floatingLabelStyle={{color: '#616161'}}
           fullWidth={true}
           onChange={this.handleChangeVision}>
@@ -251,7 +251,7 @@ class App extends Component {
         <SelectField
           floatingLabelText='Anticipation: Kemampuan pemain untuk menangani hal-hal krusial'
           value={this.state.anticipation}
-          style={{fontSize: 24, padding: 6}}
+          style={{fontSize: 20, padding: 6}}
           floatingLabelStyle={{color: '#616161'}}
           fullWidth={true}
           onChange={this.handleChangeAnticipation}>
@@ -264,7 +264,7 @@ class App extends Component {
         <SelectField
           floatingLabelText='Goalkeeping: Kemampuan pemain untuk mempertahankan gawang dari kebobolan'
           value={this.state.goalkeeping}
-          style={{fontSize: 24, padding: 6}}
+          style={{fontSize: 20, padding: 6}}
           floatingLabelStyle={{color: '#616161'}}
           fullWidth={true}
           onChange={this.handleChangeGoalkeeping}>
@@ -279,7 +279,7 @@ class App extends Component {
           label='Submit' fullWidth={true} 
           primary={true} 
           style={{margin: 12, height: 50}}
-          labelStyle={{fontSize: 24}}
+          labelStyle={{fontSize: 20}}
           onClick={this.onSubmit} />
 
       </div>
@@ -378,7 +378,10 @@ class App extends Component {
     this.setState({screen: 'loading'})
     
     //Dummy process
-    setTimeout(() => this.setState({screen: 'result'}), 2000)
+    setTimeout(() => this.setState({
+      screen: 'result',
+      result: this.expertSystem()
+    }), 2000)
   }
 
   onReset() {
@@ -402,6 +405,66 @@ class App extends Component {
       screen: 'form',
       result: 'Striker'
     })
+  }
+
+  expertSystem() {
+    const {
+      dribbling,
+      finishing,
+      crossing, 
+      heading,
+      marking,
+      passing,
+      tackling,
+      agility,
+      balance,
+      speed,
+      stamina,
+      strength,
+      vision,
+      anticipation,
+      goalkeeping
+    } = this.state;
+
+    const Abilities = {
+      Dribbling: dribbling,
+      Finishing: finishing,
+      Crossing: crossing, 
+      Heading: heading,
+      Marking: marking,
+      Passing: passing,
+      Tackling: tackling,
+      Agility: agility,
+      Balance: balance,
+      Speed: speed,
+      Stamina: stamina,
+      Strength: strength,
+      Vision: vision,
+      Anticipation: anticipation,
+      GoalKeeping: goalkeeping
+    };
+
+    let output;
+
+    if(Abilities['Passing']==2 && Abilities['Tackling']>=1 && Abilities['Agility']>=1 && Abilities['Balance']==2 && Abilities['Strength']==2 && Abilities['Vision']==2){
+      output = 'Center Midfielder';
+    } else  if(Abilities['Passing']>=1 && Abilities['Balance'] >= 1 &&  Abilities['Speed'] == 2 && Abilities['Crossing']==2 && Abilities['Dribbling']==2 &&  Abilities['Stamina'] == 2 &&  Abilities['Agility'] == 2) {
+      output = 'Winger';
+    } else if(Abilities['Marking']==2 && Abilities['Passing']>=1 && Abilities['Heading']>=1 && Abilities['Tackling']==2 && Abilities['Strength']==2 && Abilities['Balance']==2 && Abilities['Anticipation']==2) {
+      output = 'Center Back';
+    } else if(Abilities['Marking']>=1 &&  Abilities['Passing']>=1 &&  Abilities['Tackling']>=1 && Abilities['Balance']>=1 &&  Abilities['Anticipation']>=1 && Abilities['Speed']==2 &&  Abilities['Crossing']==2 && Abilities['Dribbling']>=1 &&  Abilities['Stamina']==2) {
+      output = 'Wing Back';
+    } else if(Abilities['Dribbling']>=1 && Abilities['Finishing']==2 && Abilities['Heading']==2 && Abilities['Agility']>=1 && Abilities['Strength']>=1) {
+      output = 'Striker';
+    } else if(Abilities['Dribbling']>=1 &&  Abilities['Finishing']>=1 &&  Abilities['Agility']==2 &&  Abilities['Passing']==2 &&  Abilities['Balance']>=1 &&  Abilities['Vision']>=1){
+      output = 'Attacking Midfielder';
+    } else if (Abilities['GoalKeeping']==2 && Abilities['Vision']==2 && Abilities['Anticipation']==2){
+      output ='GoalKeeper';
+    } else {
+      output = 'Latihan lagi';
+    }
+
+    return output;
   }
 }
 
